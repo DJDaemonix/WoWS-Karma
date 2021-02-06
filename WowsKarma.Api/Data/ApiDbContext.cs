@@ -45,6 +45,17 @@ namespace WowsKarma.Api.Data
 
 			#endregion
 
+			#region ClanPlayers
+
+/*			modelBuilder.Entity<Player>()
+				.HasOne(p => p.ClanStatus)
+				.WithOne(cp => cp.Player)
+				.IsRequired(false)
+				.OnDelete(DeleteBehavior.)
+*/
+			#endregion
+
+
 			#region Posts
 
 			modelBuilder.Entity<Post>()

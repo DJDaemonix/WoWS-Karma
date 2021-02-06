@@ -16,6 +16,9 @@ namespace WowsKarma.Api.Data.Models
 		public DateTime CreatedAt { get; init; }
 		public DateTime UpdatedAt { get; set; }
 
+//		public uint? ClanId { get; set; }
+//		public ClanPlayer ClanStatus { get; set; }
+
 		public string Username { get; set; }
 
 		public int SiteKarma { get; set; }
